@@ -1,0 +1,11 @@
+[package]
+name = "max342x-usbd"
+description = "usb-device implementation for MAX3420E and MAX3421E SPI USB controllers."
+version = "0.1.0"
+authors = ["Matti Virkkunen <mvirkkunen@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = "0.2.3"
+usb-device = "0.2.5"
+rtt = { package = "rtt-target", version = "0.1.0" }
